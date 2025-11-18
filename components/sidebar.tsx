@@ -40,10 +40,10 @@ export function Sidebar({ role }: SidebarProps) {
 
   return (
     <>
-      {/* Mobile toggle - fixed top-16 to appear below the header */}
+      {/* Mobile toggle - positioned to align within the header row on mobile */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-0 left-4 z-40 p-2 hover:bg-muted rounded-lg md:hidden transition-all duration-200 mt-2"
+        className="fixed top-4 left-4 z-50 p-2 hover:bg-muted rounded-lg md:hidden transition-all duration-200 pointer-events-auto"
       >
         {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
       </button>
@@ -59,7 +59,7 @@ export function Sidebar({ role }: SidebarProps) {
       {/* Sidebar */}
       <aside
         className={cn(
-          'fixed left-0 top-0 h-screen w-64 bg-sidebar text-sidebar-foreground border-r border-sidebar-border transition-transform duration-300 z-40 md:translate-x-0 md:static md:z-auto overflow-y-auto pt-16 md:pt-0',
+          'fixed left-0 top-0 h-screen w-64 bg-sidebar text-sidebar-foreground border-r border-sidebar-border transition-transform duration-300 z-40 md:translate-x-0 md:static md:z-auto overflow-y-auto pt-16 md:pt-0 pointer-events-auto',
           isOpen ? 'translate-x-0' : '-translate-x-full'
         )}
       >

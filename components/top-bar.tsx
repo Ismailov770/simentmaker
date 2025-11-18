@@ -25,7 +25,7 @@ export function TopBar() {
     <header className="sticky top-0 z-40 border-b border-border bg-background/95 backdrop-blur-sm transition-all duration-200">
       <div className="flex items-center justify-between h-16 px-4 sm:px-6 lg:px-8">
         <div className="flex-1">
-          <h2 className="text-lg font-semibold">Xush Kelibsiz</h2>
+          <h2 className="text-lg font-semibold pl-10 sm:pl-0">Xush Kelibsiz</h2>
         </div>
 
         <div className="flex items-center gap-2">

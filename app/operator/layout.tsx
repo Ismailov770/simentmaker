@@ -13,7 +13,7 @@ export default function OperatorLayout({
       </div>
       
       {/* Mobile sidebar - overlays on top */}
-      <div className="md:hidden fixed inset-0 pointer-events-none z-30">
+      <div className="md:hidden fixed inset-0 z-50">
         <Sidebar role="operator" />
       </div>
 
