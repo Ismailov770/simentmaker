@@ -1,0 +1,10 @@
+{
+  "/manager/clients/page": "app/manager/clients/page.js",
+  "/manager/dashboard/page": "app/manager/dashboard/page.js",
+  "/manager/distribution/page": "app/manager/distribution/page.js",
+  "/manager/reports/page": "app/manager/reports/page.js",
+  "/manager/sales/page": "app/manager/sales/page.js",
+  "/operator/dashboard/page": "app/operator/dashboard/page.js",
+  "/operator/raw-materials/page": "app/operator/raw-materials/page.js",
+  "/page": "app/page.js"
+}
